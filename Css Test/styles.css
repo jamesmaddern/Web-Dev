@@ -1,0 +1,14 @@
+h1{
+    color: blue;
+    height: 100px;
+    width:200px;
+}
+p{
+    color: red;
+    height: 150px;
+    width: 250px;
+}
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: green;
+}
