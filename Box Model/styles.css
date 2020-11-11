@@ -61,12 +61,15 @@ aside{
     padding:1%;
 
 }
-a{
+.nav-content{
     color: white;
     padding:10px;
+    
+    
+    
+}
+a{
     text-decoration: none;
-    
-    
 }
 a:hover{
     background-color: #489FB5;
@@ -92,4 +95,27 @@ h2{
 }
 p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.dropdown{
+    position:relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display:none;
+    position: absolute;
+    background-color: #396776;
+    margin-top:10px;
+    min-width: 78.5px;
+    max-width: 78.5px;
+    
+    align-self: center;
+   
+
+
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-menu-link{
+    padding: 10px;
 }
