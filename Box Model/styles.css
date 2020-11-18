@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 html{
     margin:0;
     padding:0;
@@ -5,72 +9,73 @@ html{
     background:#489FB5;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 #wrap{
     width:80%;
     padding-top:0;
     margin:0 auto;
     background:white;
-
-
 }
+
 body{
     padding:0;
     margin:0;
 }
+
 img{
     width:100%;
     height:auto;
 }
+
 header{
     background: white;
 }
+
 nav{
     background: #396776;
     padding-top:10px;
-    padding-bottom:10px;
-    
-    
-   
-  
-    
+    padding-bottom:10px; 
 }
 
-
-#rightmost{
+.rightmost{
     background:white;
     float:right;
     width:31%;
     padding:1%;
-    
-
+    height:100%;
 }
 
 
-main{
+
+.leftmost{
     background:white;
     float:left;
     width:32%;
     padding:1%;
-    border-right:1px;
-    
+    border-right:1px;    
 }
-aside{
+
+.center{
     background:white;
     float:right;
     width:31%;
     padding:1%;
-
 }
+
 .nav-content{
     color: white;
     padding:10px;
-    
-    
-    
 }
+
 a{
     text-decoration: none;
+    color: white;
+    padding-left: none;
+    padding-right: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
+
 a:hover{
     background-color: #489FB5;
     
@@ -117,5 +122,37 @@ p{
     display: block;
 }
 .dropdown-menu-link{
-    padding: 10px;
+    padding: 5px;
+}
+.menu-icon{
+    display: none;
+    
+}
+.menu-icon:hover .nav-content{
+    display:block;
+}
+@media screen and (max-width:960px){
+    .mountain-img{
+        width: 50%;
+        height: auto;
+        float:none;
+    }
+    .leftmost,.center,.rightmost{
+        width:100%;
+        padding:1%;
+        
+    }
+    .nav-content{
+        display:none;
+    }
+    .menu-icon{
+        display:block;
+    }
+    .menu-icon img{
+        width:10%;
+        height:auto;
+
+    }
+    
+      
 }
