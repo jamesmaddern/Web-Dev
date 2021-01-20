@@ -1,0 +1,38 @@
+@font-face{
+    font-family: openSans;
+    src: url(fonts/OpenSans-Light.ttf);  
+}
+body{
+    margin:0;
+    
+    
+    
+    
+}
+#background{
+    background-image: url("images/background\ \(2\).jpg");
+    background-position-x: 0;
+    background-position-y: -50px;
+    background-repeat: no-repeat;
+    background-size:contain;
+    /*background-size:100%;*/
+}
+h1{
+    font-family: 'Exo', sans-serif;
+    color:antiquewhite;
+}
+p{
+    font-size:100px;
+}
+header{
+    
+    /*background-color: blue;*/
+    
+
+}
+#wrap{
+    background-color: green;
+    height:100%;
+    width:75%;
+    margin:0 auto;
+}
