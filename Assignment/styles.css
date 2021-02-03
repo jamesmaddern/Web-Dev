@@ -17,22 +17,27 @@ h1{
 h2{
     font-family: 'Exo', sans-serif;
     font-size: 100px;
-    padding-top: 10px;
+    padding-top: 100px;
     padding-bottom: 10px;
     width:initial;
-    background-color: lawngreen;
+    color:white;
     margin:0;
+    
 }
 p{
     font-family: 'Open Sans', sans-serif;
+    margin-top: 0;
     
 }
 #divider{
     width:100%;
-    height:10px;
-    background-color: blueviolet;
+    height:5px;
+    background-color: #DB222A;
 }
-
+footer{
+    background-color: #DB222A;
+    height:100px;
+}
 #bgImg{
     /* The image used */
     background-image: url("images/background.jpg");
@@ -57,6 +62,8 @@ p{
 }
 nav{
     z-index: 99;
+    /*background: rgb(219,34,42);
+    background: linear-gradient(180deg, rgba(219,34,42,1) 69%, rgba(172,8,21,1) 100%);*/
 }    
     
 
@@ -79,7 +86,4 @@ header{
     height:100%;
     width:75%;
     margin:0 auto;
-}
-nav{
-    background-color: aqua;
 }
