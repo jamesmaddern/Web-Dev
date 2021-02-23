@@ -18,12 +18,13 @@ h1{
 h2{
     font-family: 'Exo', sans-serif;
     font-size: 100px;
-    padding-top: 100px;
+    padding-top: 120px;
     padding-bottom: 10px;
     width:initial;
     color:white;
     margin:0;
     text-shadow: 2px 2px black;
+    padding-left: 50px;
     
     
 }
@@ -37,31 +38,39 @@ p{
 }
 #divider{
     width:100%;
-    height:20px;
+    height:10px;
     background-color: #DB222A;
     float:right;
     
 }
+ol{
+    padding:10px;
+    padding-left: 50px;
+    margin: 0;
+    font-style:italic;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
 footer{
     background-color: #EDEDED;
-    height:25px;
+    height:100%;
 }
 #bgImg{
     /* The image used */
     background-image: url("images/background.jpg");
 
-    /* Add the blur effect */
+    
     filter: blur(2px);
-    -webkit-filter: blur(0px);
+    -webkit-filter: blur(2px);
 
-    /* Full height */
-    height: inherit;
-    width:105%;
+     
+    height:inherit;
+    width:100%;
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    transform: scale(1.03);
+    
     position:absolute;
     z-index: -99;
     
@@ -86,7 +95,7 @@ ul{
     font-family: 'Exo', sans-serif;
     margin:23px;
 }
-ul:hover{
+a:hover{
     color:#DB222A;
 }
 a{
@@ -130,6 +139,9 @@ header{
         margin-left:5px;
         margin-right:5px;
         padding:0;
+    }
+    #wrap{
+        width:90%;
     }
 
 }
